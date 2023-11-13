@@ -98,6 +98,7 @@
 
     ***
     Nos ocurre lo mismo que en el apartado anterior, aun siguiendo los pasos el dig no devuelve una respuesta.
+    He reintendado varias veces no encuentro el error en caso de existir.
 
     ***
 
