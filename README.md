@@ -86,5 +86,22 @@
         Comprueba que todo funciona con el comando "dig"
         Muestra en los logs que el servicio arranca correctamente
    
+    *Explicado en : examenEJ9.1,examenEJ9.2,examenEJ9.3,examenEJ9.4*
+
+    No fui capaz de que funcione siguiendo los pasos poco a poco no soy capaz de encontrar el error en el caso de que exista.
+    La zona esta bien definida, el contenedor bien mapeado pero aun asi no funciona.
+
    
     10.Realiza el apartado 9 en la máquina virtual con DNS
+
+    *Explicado en : examenEJ10.1,examenEJ10.2,examenEJ10.3,examenEJ10.4*
+
+    ***
+    Nos ocurre lo mismo que en el apartado anterior, aun siguiendo los pasos el dig no devuelve una respuesta.
+
+    ***
+
+    *Las busquedas con dig para ambos apartados serian*
+        -dig www.tiendadeelectronica.int : tendria que devolver 172.16.0.1
+        -dig owncloud.tiendadeelectronica.int: tendria que devolver www.tiendadeelectronica.int
+        -dig txt tiendadeelectronica.int: que devolveria 1234ASDF
